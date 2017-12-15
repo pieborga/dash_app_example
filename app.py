@@ -98,8 +98,8 @@ app.layout = html.Div([
 #Start by setting imputs and outputs
 @app.callback(
     dash.dependencies.Output('grph1', 'figure'),
-    [dash.dependencies.Input('xaxis-column1', 'value'),
-     dash.dependencies.Input('yaxis-column1', 'value'),
+    [dash.dependencies.Input('xaxis1', 'value'),
+     dash.dependencies.Input('yaxis1', 'value'),
      dash.dependencies.Input('year--slider', 'value')])
 
 #Define the function
