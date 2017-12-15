@@ -25,7 +25,7 @@ import plotly.graph_objs as go
 
 #Import files & create coresponding indicators for values and countries
 
-euro_data = pd.read_csv('/Users/Pietro/Documents/GitHub/dash_app_example/Eurostat_file.csv')
+euro_data = pd.read_csv('nama_10_gdp_1_Data.csv')
 
 available_indicators = euro_data['NA_ITEM'].unique()
 
